@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "mikestead.dotenv",
+    "EditorConfig.EditorConfig",
+    "dbaeumer.vscode-eslint",
+    "redjue.git-commit-plugin",
+    "lokalise.i18n-ally",
+    "antfu.iconify",
+    "csstools.postcss",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "Vue.volar",
+    "hollowtree.vue-snippets"
+  ]
+}

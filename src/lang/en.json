@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "login": "login",
+    "lock": "lock"
+  },
+  "login": {
+    "title": "LoginIn"
+  }
+}

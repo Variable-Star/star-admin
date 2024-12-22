@@ -1,0 +1,31 @@
+{
+  "explorer.compactFolders": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never",
+    "source.sortImports": "explicit",
+    "source.fixAll": "explicit",
+    "source.fixAll.ts": "explicit",
+    "source.removeUnused.ts": "never",
+    "source.removeUnusedImports": "never",
+    "source.addMissingImports.ts": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    ".env": ".env.*",
+    "tsconfig.json": "tsconfig.*.json",
+    "vite.config.ts": "index.html",
+    "package.json": ".npmrc, package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, LICENSE, README.md",
+    "eslint.config.js": ".eslintrc-auto-import.json, stylelint.config.js, postcss.config.js, .prettierignore, prettier.config.js, .editorconfig",
+    ".gitignore": "commitlint.config.js, lint-staged.config.js"
+  },
+  "i18n-ally.localesPaths": ["src/lang"],
+  "i18n-ally.displayLanguage": "zh"
+}

@@ -1,0 +1,10 @@
+{
+  "routes": {
+    "home": "首页",
+    "login": "登录",
+    "lock": "锁屏"
+  },
+  "login": {
+    "title": "登录"
+  }
+}

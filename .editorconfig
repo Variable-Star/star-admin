@@ -1,0 +1,14 @@
+# https://editorconfig.org
+root = true
+
+[*]
+indent_style = space # 缩进风格
+indent_size = 2 # 缩进大小
+end_of_line = lf # 换行符
+charset = utf-8 # 字符集
+trim_trailing_whitespace = true # 自动删除行末空格
+insert_final_newline = true # 自动添加末尾换行符
+max_line_length = off # 行最大长度
+
+[*.{js,cjs,mjs,jsx,ts,cts,mts,tsx,vue,html}]
+max_line_length = 120

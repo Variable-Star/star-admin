@@ -1,0 +1,10 @@
+# editor directories and files
+.idea
+.DS_Store
+
+# project directories and files
+node_modules
+dist
+*.local
+*.tsbuildinfo
+stats.html
